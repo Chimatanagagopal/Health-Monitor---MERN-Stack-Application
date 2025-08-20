@@ -1,0 +1,63 @@
+/* ========= REGISTER PAGE ONLY ========= */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 10px;
+  min-height: 100vh;
+  background: #f6f9fc;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 28px 26px 22px;
+  animation: fadeIn 0.4s ease;
+}
+
+.register-title {
+  margin: 0 0 16px;
+  font-weight: 700;
+  color: #2a3855;
+  text-align: center;
+}
+
+.register-label {
+  display: block;
+  margin: 9px 0 5px;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 14px;
+}
+
+.register-input, 
+.register-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.6px solid #dce3eb;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  margin-bottom: 12px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.register-input:focus, 
+.register-select:focus {
+  border-color: #47a6e6;
+  box-shadow: 0 0 0 3px rgba(71,166,230,0.25);
+  outline: none;
+}
+
+.register-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 11px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #2a80d7;
+  color: #fff
+}
